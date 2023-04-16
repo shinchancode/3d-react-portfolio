@@ -1,0 +1,47 @@
+@import "../global.scss";
+
+.ityped-cursor
+{
+    animation: blink 2s infinite;
+}
+@keyframes blink 
+{   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+    
+}
+
+.imgcontainer1
+{
+    right: 4rem;
+    top: 6rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile3
+    {
+        width: 250px;
+        height: 250px;
+        right: 5px;
+    }
+    @include mobile2
+    {
+        display: none;
+    }
+
+    img
+    {
+        height: 80%;
+        border-radius: 50%;
+    }
+}

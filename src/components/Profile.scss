@@ -1,0 +1,50 @@
+.my-skills 
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .skill 
+    {
+        margin: 0px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .icon-container 
+        {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 2rem;
+            display: flex;
+            transition: all 1s ease;
+
+            a
+            {
+                overflow: hidden;
+
+                img
+                {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+
+            img
+            {
+                width: 70px;
+                height: 70px;                
+            }
+
+            &:hover
+            {
+                transform: scale(1.1);  
+            }
+            
+        }
+    }
+}

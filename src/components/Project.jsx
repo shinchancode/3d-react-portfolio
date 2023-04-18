@@ -3,7 +3,7 @@ import { motion, transform } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { github } from "../assets";
-import { demo } from "../assets"
+import { demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import {list} from "../constants"
 import { fadeIn, textVariant } from "../utils/motion";
@@ -113,13 +113,13 @@ const Project = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div whileInView={{ opacity: 1 , transform : 'none'}} variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className='project w-full flex'>
-        <motion.p
+        <motion.p whileInView={{ opacity: 1 , transform : 'none'}}
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] leading-[30px]'
         >

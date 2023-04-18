@@ -1,8 +1,8 @@
 $width1: 480px;
 $width2: 640px;
-$width3: 730px;
+$width3: 540px;
 $width4: 830px;
-// $width4: 1100px;
+$width5: 1024px;
 // $width5: 1300px;
 
 
@@ -41,11 +41,11 @@ $width4: 830px;
    }
     
 };
-// @mixin mobile4
-// {   
-//    @media (max-width: #{$width5}) 
-//    {
-//        @content
-//    }
+@mixin mobile4
+{   
+   @media (max-width: #{$width5}) 
+   {
+       @content
+   }
     
-// };
+};

@@ -1,41 +1,20 @@
 import {
-    javascript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
+    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
     hf,
-    mongodb,
-    git,
-    figma,
-    docker,
-    crypto,
-    threejs,
-    demo,
-    clg,
-    school,oop,yml,crud,dwld,onetomany,
+    clg,school,
+    crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
-    port_3d, jsp, chitchat, htmlport, notes, react1,
+    port_3d, jsp, chitchat, notes, react1,
     sql, mini, snl,
   } from "../assets";
 
   const profiles = [
     {
-      link: "https://github.com/shinchancode",
-      icon: "https://img.icons8.com/color-glass/344/github.png",
-    },
-    {
-      link: "https://auth.geeksforgeeks.org/user/_shinchancode/profile",
+      link: "https://auth.geeksforgeeks.org/user/aarti_rathi",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
     },
     {
-      link: "https://www.linkedin.com/in/aarti-rathi-a6031814b/",
-      icon: "https://img.icons8.com/external-justicon-flat-justicon/452/external-linkedin-social-media-justicon-flat-justicon.png",
-    },
-    {
-      link: "https://aartirathi17.onrender.com/certificate",
+      link: "https://drive.google.com/drive/folders/1WF57ILfHVV8pT5gqD3SLRBBFvIpfZIeS",
       icon: "https://img.icons8.com/external-wanicon-lineal-color-wanicon/344/external-diploma-education-wanicon-lineal-color-wanicon.png",
     },
 
@@ -58,10 +37,6 @@ import {
     {
       link:"https://dev.to/shinchancode",
       icon: hf,
-    },
-    {
-      link: "https://linktr.ee/rathi17",
-      icon: "https://img.icons8.com/color/344/linktree.png",
     },
   ];
   
@@ -95,10 +70,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -117,14 +88,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
     {
       name:"MySql",
@@ -446,28 +409,6 @@ import {
       source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
     },
     {
-      name: "Basic Portfolio",
-      description:
-        "Implemented my own portfolio as a webpage using amazing features of CSS and HTML. It is a responsive website.",
-      tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "portfolio",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: htmlport,
-      source_link: "https://aartirathi17.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/Portfolio",
-    },
-    {
       name: "Notes Application",
       description:
         "A web-based notes app made by using javaScript, This web-based notes app having functionalities like Drag and drop, Search notes etc.",
@@ -587,7 +528,7 @@ import {
         "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
         "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
       ],
-      link: "https://drive.google.com/drive/folders/1JfCWiMBEIQHZuVDzmTOjM6JVr5EQxvbk",
+      link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
     },
     {
       title: "Technical Content Writer",
@@ -601,7 +542,7 @@ import {
         "Attracted over 5000+ visitors to the company website with powerful educational content.",
         "Wrote 50+ articles and improved 150+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
       ],
-      link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
+      link: "https://auth.geeksforgeeks.org/user/_shinchancode",
     },
     {
       title: "Google Cloud Training",

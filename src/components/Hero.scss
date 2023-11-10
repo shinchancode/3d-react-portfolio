@@ -1,0 +1,89 @@
+@import "../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+.ityped-cursor
+{
+    animation: blink 2s infinite;
+}
+@keyframes blink 
+{   
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+    
+}
+
+.head1
+{
+    top: 80px;
+    .head2
+    {
+        line-height: 95px;
+        @include mobile4
+        {
+            line-height: 70px;
+        }
+
+        .link1
+        {
+            line-height: 40px;
+            background: rgba(0,0,0,0.3);
+            width: max-content;
+            display: block;
+            display: flex;
+            z-index: 2;
+            gap: 0.8rem;
+            border-radius: 3rem;
+        
+            a{
+                background: transparent;
+                padding: 0.9rem;
+                border-radius: 50%;
+                display: flex;
+                color: var(--color-light);
+                font-size: 2rem;
+            }
+        }
+    }
+    .name
+    {
+        font-family: 'Kalam', cursive;
+        font-weight: 900;
+    }
+}
+
+
+.imgcontainer1
+{
+    right: 4rem;
+    top: 6rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile3
+    {
+        width: 200px;
+        height: 200px;
+        right: 5px;
+    }
+
+    @include mobile2
+    {
+        display: none;
+    }
+
+    img
+    {
+        height: 90%;
+        border-radius: 45%;
+    }
+}

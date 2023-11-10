@@ -1,0 +1,51 @@
+$width1: 480px;
+$width2: 640px;
+$width3: 540px;
+$width4: 830px;
+$width5: 1024px;
+// $width5: 1300px;
+
+
+
+@mixin mobile 
+{   
+   @media (max-width: #{$width1}) 
+   {
+       @content
+   }
+    
+};
+
+@mixin mobile1
+{   
+   @media (max-width: #{$width2}) 
+   {
+       @content
+   }
+    
+};
+
+@mixin mobile2
+{   
+   @media (max-width: #{$width3}) 
+   {
+       @content
+   }
+    
+};
+@mixin mobile3
+{   
+   @media (max-width: #{$width4}) 
+   {
+       @content
+   }
+    
+};
+@mixin mobile4
+{   
+   @media (max-width: #{$width5}) 
+   {
+       @content
+   }
+    
+};

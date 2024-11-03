@@ -28,6 +28,13 @@
         {
             line-height: 70px;
         }
+        h3 span{
+            @include mobile4
+        {
+            font-size: 20px;
+        }
+            
+        }
 
         .link1
         {

@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY Mellon ', "Regional Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', "Zonal Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
   },[]);
 
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-1 sm:h-90 h-40 violet-gradient' />
         </div>
 
 
@@ -68,7 +68,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-10 flex justify-end items-center'>
+      <div className='absolute xs:bottom-2 bottom-6 w-10 flex justify-end items-center'>
         <a href='#education'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

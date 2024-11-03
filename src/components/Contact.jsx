@@ -11,6 +11,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import "./Contact.scss";
 
 const Contact = () => {
+  
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -30,57 +31,98 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
     setLoading(true);
 
-    emailjs
-      .send(
-        'service_6y5vft7',
-        'template_5g175sf',
-        {
-          from_name: form.name,
-          to_name: "Aarti Rathi",
-          from_email: form.email,
-          to_email: "aarti.rathi1710@gmail.com",
-          message: form.message,
-        },
-        'FMQ4a1hK5NSAkumfj',
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+    formData.append("access_key", "5f5b91cf-2fc6-4dc3-9cd2-dc8838e33f09");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then(
+      () => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.error(error);
+
+        alert("Ahh, something went wrong. Please try again.");
+      }
+    );
+
+    if (res.success) {
+      console.log("Success", res);
+    }
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   emailjs
+  //     .send(
+  //       'service_6y5vft7',
+  //       'template_5g175sf',
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Aarti Rathi",
+  //         from_email: form.email,
+  //         to_email: "aarti.rathi1710@gmail.com",
+  //         message: form.message,
+  //       },
+  //       'FMQ4a1hK5NSAkumfj',
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as possible.");
+
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
+
+  //         alert("Ahh, something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex gap-2 overflow-hidden contact`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='flex-[0.5] xl:h-auto md:h-[600px] h-[400px] earth'
       >
         <EarthCanvas />
       </motion.div>
 
-      <motion.div whileInView={{ opacity: 1 , transform : 'none'}}
+      <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.5] bg-black-100 p-8 rounded-2xl earth'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -88,7 +130,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-3 flex flex-col gap-8'
+          className='mt-3 flex flex-col gap-8 form1'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-3'>Your Name</span>
@@ -113,7 +155,7 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-3'>Your Message</span>
+            <span className='text-white font-medium mb-2'>Your Message</span>
             <textarea
               rows={7}
               name='message'

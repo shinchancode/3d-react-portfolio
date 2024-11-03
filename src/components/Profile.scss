@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .my-skills 
 {
     margin-top: 30px;
@@ -15,10 +17,13 @@
         justify-content: center;
         align-items: center;
 
+        @include mobile2
+        {
+            margin: 0px 10px;
+        }
+
         .icon-container 
         {
-            width: 70px;
-            height: 70px;
             margin-bottom: 2rem;
             display: flex;
             transition: all 1s ease;
@@ -31,13 +36,13 @@
                 {
                     width: 70px;
                     height: 70px;
-                }
-            }
 
-            img
-            {
-                width: 70px;
-                height: 70px;                
+                    @include mobile4
+                    {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
             }
 
             &:hover

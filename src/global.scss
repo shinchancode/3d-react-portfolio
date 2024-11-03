@@ -3,9 +3,6 @@ $width2: 640px;
 $width3: 540px;
 $width4: 830px;
 $width5: 1024px;
-// $width5: 1300px;
-
-
 
 @mixin mobile 
 {   
@@ -49,3 +46,7 @@ $width5: 1024px;
    }
     
 };
+
+body{
+    zoom: 0.85;
+}

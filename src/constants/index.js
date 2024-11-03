@@ -37,25 +37,28 @@ import {
 
   const achievements = [
     {
+      title: "Table Tennis winner at BNY : Secured first position for Singles, Women doubles and Mixed doubles (2024).",
+    },
+    {
       title: "8th Position : Selected for the final round of 12th CSI InApp International Student Project awards 2023.",
     },
     {
-      title: "Twice State level Table-Tennis Winner (2021 and 2022)",
+      title: "State level Table-Tennis Winner (2021 and 2022).",
     },
     {
-      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship (2019 - 2023)",
+      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship (2019 - 2023).",
     },
     {
-      title: "Branch Head of Information Technology Department (2021 - 2022)",
+      title: "Branch Head of Information Technology Department (2021 - 2022).",
     },
     {
-      title: "Selected in top 100 candidates for Google Cloud Training among 20k Students.",
+      title: "Selected in top 100 candidates for Google Cloud Training among 20k Students (2021).",
     },
     {
-      title: "Got Education Scholarship Scheme for Army Personnel(ESSA) Scholarship (2015 - 2023)",
+      title: "Got Education Scholarship Scheme for Army Personnel(ESSA) Scholarship for securing 90+ % (2015 - 2023).",
     },
     {
-      title: "Played Nationals in Throwball for U-14 category. (2015)",
+      title: "Played Nationals in Throwball for U-14 category. (2015).",
     },
   ]
   
@@ -99,10 +102,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",

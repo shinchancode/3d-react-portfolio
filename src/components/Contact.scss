@@ -1,4 +1,28 @@
-.contact__options {
+@import "../global.scss";
+
+.contact{
+  flex-direction: row;
+  @include mobile2
+    {
+        flex-direction: column;
+    }
+  .earth{
+    @include mobile2
+    {
+        flex: none;
+        align-content: center;
+    }
+  }
+
+  .form1{
+
+    @include mobile3
+    {
+        zoom: 0.8;
+    }
+  }
+  .contact__options {
+
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -23,4 +47,4 @@
   {
     border: 2px solid #49a891;
   }
-  
+}

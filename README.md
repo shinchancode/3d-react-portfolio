@@ -4,7 +4,7 @@
 # [Personal Portfolio - 3D React Portfolio](https://shinchancode.github.io/3d-react-portfolio/)
 <b>Created a responsive react website using amazing features of CSS, HTML and Javascript framework React with 3D graphics and animations. I have used ThreeJS 3D Developer tools for this Portfolio.
 
-Implemented my own Portfolio as Website, Where I have added all my projects and experiences. I have hosted it with the help of github gh-pages. I keep on making changes accordingly.</b>
+Implemented my own Portfolio as Website, Where I have added all my projects and experiences. I have hosted it with the help of github gh-pages. I keep on making changes accordingly to keep it up-to-date.</b>
 
 ![3D Portfolio](https://github.com/shinchancode/3d-react-portfolio/blob/main/Images/1.png)
 

@@ -32,7 +32,7 @@ const Hero = () => {
 
         <div className="head2">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hii there, I'm <p className='name text-[#915EFF]'>Aarti Rathi</p>
+            Hii there, I'm <p className='name text-[#915EFF]'>Varun Wadhwa</p>
           </h1>
           <h3>
             <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>

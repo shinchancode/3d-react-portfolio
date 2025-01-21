@@ -82,7 +82,7 @@ const Contact = () => {
   //       'template_5g175sf',
   //       {
   //         from_name: form.name,
-  //         to_name: "Aarti Rathi",
+  //         to_name: "Varun Wadhwa",
   //         from_email: form.email,
   //         to_email: "aarti.rathi1710@gmail.com",
   //         message: form.message,

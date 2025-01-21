@@ -9,7 +9,8 @@
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -19,7 +20,7 @@
     "gh-pages": "^5.0.0",
     "ityped": "^1.0.3",
     "maath": "^0.5.3",
-    "node-sass": "^8.0.0",
+    "sass": "1.25.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', "Zonal Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [' Software Engineer at GEP ', " React Expert ",' Mobile App Developer ', " AI Enthusiast " , " Expert Meditator "] })
   },[]);
 
   return (
@@ -40,20 +40,16 @@ const Hero = () => {
         
         <div className="absolute link1">        
         <a
-          href="https://github.com/shinchancode" target="_blank">
+          href="https://github.com/varunrwadhwa" target="_blank">
           <AiOutlineGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+          href="https://www.linkedin.com/in/varunrwadhwa/" target="_blank">
           <ImLinkedin />
         </a>
         <a
-          href="https://www.instagram.com/aarti.rathiii" target="_blank">
+          href="https://www.instagram.com/varoonwadhwa" target="_blank">
           <AiOutlineInstagram />
-        </a>
-        <a
-          href="https://linktr.ee/rathi17" target="_blank">
-          <BiLinkAlt />
         </a>
 
       </div>

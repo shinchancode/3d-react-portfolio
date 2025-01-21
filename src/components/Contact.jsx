@@ -178,12 +178,12 @@ const Contact = () => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:aarti.rathi1710@gmail.com" target="_blank" className="blue-text-gradient">aarti.rathi1710@gmail.com</a>
+            <a href="mailto:varunwadhwa70913@gmail.com" target="_blank" className="blue-text-gradient">varunwadhwa70913@gmail.com</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
-              +91 7040031669
+            <a href="https://api.whatsapp.com/send/?phone=9372238237&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+              +91 9372238237
             </a>
           </article>
         </div>

@@ -37,30 +37,36 @@ import {
 
   const achievements = [
     {
-      title: "Table Tennis winner at BNY : Secured first position for Singles, Women doubles and Mixed doubles (2024).",
+      title: "Achiever Award Winner: Recognized as an Achiever at GEP in Q2 2024 for outstanding contributions.",
     },
     {
-      title: "8th Position : Selected for the final round of 12th CSI InApp International Student Project awards 2023.",
+      title: "Client Success: Delivered impactful solutions for high-profile clients such as Bank of America, Chevron, Roche, Leosmb, and United Group.",
     },
     {
-      title: "State level Table-Tennis Winner (2021 and 2022).",
+      title: "AI Integration: Integrated advanced AI-driven insights into enterprise systems to enhance decision-making and performance.",
     },
     {
-      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship (2019 - 2023).",
+      title: "On-Time Delivery: Consistently met tight deadlines while delivering high-quality results for mission-critical projects.",
     },
     {
-      title: "Branch Head of Information Technology Department (2021 - 2022).",
+      title: "Full-Stack Expertise: Built scalable and efficient APIs, automated workflows, and ensured top-notch frontend experiences.",
     },
     {
-      title: "Selected in top 100 candidates for Google Cloud Training among 20k Students (2021).",
+      title: "Innovative Problem-Solving: Solved complex challenges for global businesses with creative and technical solutions.",
     },
     {
-      title: "Got Education Scholarship Scheme for Army Personnel(ESSA) Scholarship for securing 90+ % (2015 - 2023).",
+      title: "System Optimization: Spearheaded initiatives to streamline operations, saving clients significant time and resources.",
     },
     {
-      title: "Played Nationals in Throwball for U-14 category. (2015).",
+      title: "Team Collaboration: Collaborated across teams to deliver seamless solutions tailored to client needs.",
     },
-  ]
+    {
+      title: "Technical Leadership: Demonstrated strong technical expertise in system design, React Native, and Azure.",
+    },
+    {
+      title: "High Impact: Consistently delivered solutions that combined technical precision with business impact.",
+    },
+  ];
   
   const technologies = [
     {

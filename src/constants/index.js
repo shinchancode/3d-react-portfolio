@@ -1,7 +1,7 @@
 import {
     javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
     hf,bny,holopin,
-    clg,school,
+    clg,school,juniorcollege,
     crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
     port_3d, jsp, chitchat, notes, react1,
@@ -636,9 +636,9 @@ import {
       branch:
         "Information Technology",
       marks:
-        "CGPA : 9.42 / 10",
-      name: "Army Institute of Technology Dighi, Pune",
-      year: "(2019 - 2023)",
+        "CGPA : 8.1 / 10",
+      name: "Thadomal Shahani Engineering College, Bandra",
+      year: "(2018 - 2022)",
       image: clg,
     },
     {
@@ -647,17 +647,17 @@ import {
       branch : "Science",
       marks:
         "Percentage : 89.88 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
+      name: "Sree Narayan Guru College of Science, Chembur",
       year: "2018",
-      image: school,
+      image: juniorcollege,
     },
     {
       degree:
         "10th Grade",
       branch: "SSC",
       marks:
-        "Percentage : 95 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
+        "Percentage : 87 %",
+      name: "Swami Vivekananda High School , Chembur",
       year: "2016",
       image: school,
     },

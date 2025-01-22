@@ -88,7 +88,7 @@ const ProjectCard = ({
 };
 const Project = () => {
 
-  const [selected, setSelected] = useState("java");
+  const [selected, setSelected] = useState("other");
   const [data, setData] = useState([]);
 
   useEffect(() => {

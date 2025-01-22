@@ -545,89 +545,22 @@ import {
   
   const experiences = [
     {
-      title: "Software Devloper",
-      company_name: "Bank of New York Mellon",
+      title: "Software Engineer",
+      company_name: "GEP",
       icon: bny,
-      iconBg: "#383E56",
-      date: "Aug 2023 - Present",
+      iconBg: "white",
+      date: "June 2022 - Present",
       link: "",
       points: [
-        "Software build is now used internally in the company and by the company’s clients for operating Netx360 and Netx360+.",
-        "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues.",
-        "Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
-        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS.",
+        "Role and Expertise: Full-Stack Developer delivering cutting-edge solutions for enterprise applications.",
+        "Clients: Worked with high-profile clients, including Bank of America, Chevron, Roche, Leosmb, and United Group.",
+        "AI Integration: Incorporated AI-driven insights to optimize decision-making and enhance user experiences.",
+        "Backend Development: Built scalable APIs and automated workflows to streamline operations.",
+        "Frontend Excellence: Ensured seamless and intuitive frontend performance for users.",
+        "Impact: Consistently delivered innovative solutions, combining technical expertise and business-driven outcomes."
       ],
       link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
-    },
-    {
-      title: "Research Intern",
-      company_name: "National Security Council Secretriat",
-      icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
-      iconBg: "#383E56",
-      date: "Mar 2022 - Oct 2023",
-      link: "",
-      points: [
-        "Creating a system for secure fine-grained next-generation access control and authorization of digital assets and operations using policy based cryptosystem.",
-        "Collaborating with cross-functional technologies like spring boot, react etc. to integrate high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-      link: "https://github.com/codewithrathi",
-    },
-    {
-      title: "DSA Mentor",
-      company_name: "GeeksforGeeks (Intern)",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
-      iconBg: "#E6DEDD",
-      date: "May 2022 - Apr 2023",
-      link: "",
-      points: [
-        "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
-        "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
-      ],
-      link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
-    },
-    {
-      title: "Technical Content Writer",
-      company_name: "GeeksforGeeks",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
-      iconBg: "#383E56",
-      date: "Dec 2020 - July 2022",
-      link: "",
-      points: [
-        "Creative and experienced content writer with 2+ years of experience.",
-        "Attracted over 10000+ visitors to the company website with powerful educational content.",
-        "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
-      ],
-      link: "https://auth.geeksforgeeks.org/user/_shinchancode",
-    },
-    {
-      title: "Google Cloud Training",
-      company_name: "Google Cloud",
-      icon: "https://img.icons8.com/fluency/344/google-cloud.png",
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Apr 2021",
-      link: "",
-      points: [
-        "Introduction to GCP and more functionalities with free access to quests, skill badges.",
-        "Collaborating with cross-functional technologies.",
-        "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
-        "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
-      ],
-      link: "https://www.cloudskillsboost.google/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
-    },
-    {
-      title: "Hacktoberfest",
-      company_name: "GitHub",
-      icon: hf,
-      iconBg: "#E6DEDD",
-      date: "Oct (2020 - 2022)",
-      link: "",
-      points: [
-        "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-        "GitHub hosts many open source repositories that contribute to this event.",
-      ],
-      link: "https://dev.to/shinchancode",
-    },
+    }
   ];
   
   const educations = [

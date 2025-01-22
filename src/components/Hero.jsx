@@ -35,7 +35,7 @@ const Hero = () => {
             Hi there, I'm <p className='name text-[#115095]'>Varun Wadhwa</p>
           </h1>
           <h3>
-            <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
+            <span ref={textRef} className={`${styles.heroSubText} mt-2 white-text-gradient`}></span>
           </h3>
         
         <div className="absolute link1">        

@@ -1,11 +1,11 @@
 Model Information:
-* title:	Stylized planet
-* source:	https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70
-* author:	cmzw (https://sketchfab.com/cmzw)
+* title:	Buddha
+* source:	https://sketchfab.com/3d-models/buddha-9f190aa0b82f420588ba690687a201c7
+* author:	hullo (https://sketchfab.com/hullo)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Stylized planet" (https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70) by cmzw (https://sketchfab.com/cmzw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Buddha" (https://sketchfab.com/3d-models/buddha-9f190aa0b82f420588ba690687a201c7) by hullo (https://sketchfab.com/hullo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

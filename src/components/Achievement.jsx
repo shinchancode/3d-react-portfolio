@@ -29,4 +29,4 @@ const Achievement = () => {
   );
 };
 
-export default SectionWrapper(Achievement, "");
+export default SectionWrapper(Achievement, "achievements");

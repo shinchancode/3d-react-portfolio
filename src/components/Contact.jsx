@@ -36,7 +36,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
     setLoading(true);
 
-    formData.append("access_key", "5f5b91cf-2fc6-4dc3-9cd2-dc8838e33f09");
+    formData.append("access_key", "80760b16-bee5-4299-aefb-0ddd9f65165d");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -49,8 +49,10 @@ const Contact = () => {
       },
       body: json
     }).then(
-      () => {
+      async (response) => {
         setLoading(false);
+        const data = await response.json();
+        console.log("Response:", data);
         alert("Thank you. I will get back to you as soon as possible.");
 
         setForm({
@@ -61,15 +63,12 @@ const Contact = () => {
       },
       (error) => {
         setLoading(false);
-        console.error(error);
+        console.error("Error:", error);
 
         alert("Ahh, something went wrong. Please try again.");
       }
     );
 
-    if (res.success) {
-      console.log("Success", res);
-    }
   };
 
   // const handleSubmit = (e) => {
@@ -139,7 +138,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
             />
           </label>
@@ -150,7 +149,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your Email?"
               className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
             />
           </label>
@@ -161,7 +160,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Type your message here...'
               className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
             />
           </label>

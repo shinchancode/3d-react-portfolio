@@ -49,8 +49,7 @@ const Navbar = () => {
 
         <div className='sm:flex gap-5'>
           <div
-              className={`top2 ${"text-secondary"
-              } hover:text-white text-[15px] font-medium cursor-pointer`}
+              className={`top2 hover:text-white text-[25px] font-bold cursor-pointer`}
             >
               <a href="https://drive.google.com/file/d/1lPgKq3Jxt67PAsKILgwAbFH3BP2kV5v5/view?usp=sharing" target="_blank">Resume</a>
           </div>

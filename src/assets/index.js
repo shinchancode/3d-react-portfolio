@@ -1,5 +1,5 @@
 import logo from "./arr.svg";
-import aarti from "./photo2.jpg";
+import aarti from "./photo1.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";

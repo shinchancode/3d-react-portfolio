@@ -15,14 +15,14 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', "Zonal Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', " Table-Tennis Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
   },[]);
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div className="flex">
       <div
-        className={`head1 absolute  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`head1 absolute  max-w-9xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />

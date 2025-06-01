@@ -43,13 +43,13 @@ import {
       title: "8th Position : Selected for the final round of 12th CSI InApp International Student Project awards 2023.",
     },
     {
-      title: "State level Table-Tennis Winner (2021 and 2022).",
+      title: "SPPU Pune university state level Table-Tennis winner (2021 and 2022).",
     },
     {
-      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship (2019 - 2023).",
+      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship in AIT Pune (2019 - 2023).",
     },
     {
-      title: "Branch Head of Information Technology Department (2021 - 2022).",
+      title: "Branch Head of Information Technology Departmentin in AIT Pune (2021 - 2022).",
     },
     {
       title: "Selected in top 100 candidates for Google Cloud Training among 20k Students (2021).",
@@ -553,9 +553,10 @@ import {
       link: "",
       points: [
         "Software build is now used internally in the company and by the company’s clients for operating Netx360 and Netx360+.",
-        "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues.",
-        "Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
-        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS.",
+        "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues. Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
+        "Developed backend services and RESTful APIs with login authentication, validation, and error handling to support seamless data flow. On the frontend, I built dynamic grids with filtering, sorting, and pagination, and optimized performance using lazy loading.",
+        "Added interactive features like modals, real-time search, and role-based content to enhance user experience and responsiveness.",
+        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS."
       ],
       link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
     },
@@ -636,7 +637,7 @@ import {
       branch:
         "Information Technology",
       marks:
-        "CGPA : 9.42 / 10",
+        "SGPA : 9.42 / 10",
       name: "Army Institute of Technology Dighi, Pune",
       year: "(2019 - 2023)",
       image: clg,
